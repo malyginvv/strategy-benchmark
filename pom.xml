@@ -45,7 +45,7 @@
                             <finalName>${project.artifactId}</finalName>
                             <transformers>
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>ru.mvv.strategy.StrategyImplementationBenchmark</mainClass>
+                                    <mainClass>ru.mvv.strategy.benchmark.StrategyImplementationBenchmark</mainClass>
                                 </transformer>
                             </transformers>
                         </configuration>
